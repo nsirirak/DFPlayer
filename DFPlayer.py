@@ -32,6 +32,9 @@ class dfplayer():
         
     def play(self):
         self.command(13,0,0)
+
+    def pause(self):
+        self.command(14,0,0)
         
     def stop(self):
         self.command(22,0,0)
